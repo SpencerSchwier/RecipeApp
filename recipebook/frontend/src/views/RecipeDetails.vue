@@ -62,7 +62,7 @@ export default {
         }
     },
     created() {
-         fetch(`${process.env.VUE_APP_REMOTE_API}/recipeDetails/${this.$route.params.id}`, {
+         fetch(`${process.env.VUE_APP_REMOTE_API}/api/recipeDetails/${this.$route.params.id}`, {
       headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json', 

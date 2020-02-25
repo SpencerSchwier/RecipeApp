@@ -623,7 +623,7 @@ INSERT INTO recipes (name, description, cook_time, directions, ingredients, cate
           'https://images-gmi-pmc.edge-generalmills.com/3c78f8b9-85d9-4584-bd96-7623a109674a.jpg'); --category
           
 INSERT INTO recipes (name, description, cook_time, directions, ingredients, category, recipe_pic) VALUES (
-        'Fluffy Pancakes',  --name
+        'Zog Pancakes',  --name
         'Tall and fluffy. These pancakes are just right. Topped with strawberries and whipped cream, they are impossible to resist.', --description
         25, --cook_time
                 -- Start of Directions, by steps

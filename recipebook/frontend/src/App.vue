@@ -73,7 +73,7 @@ export default {
   },
 
   created() {
-    fetch(`${process.env.VUE_APP_REMOTE_API}https://chefs-corner.herokuapp.com/api/recipes`, {
+    fetch(`${process.env.VUE_APP_REMOTE_API}/api/recipes`, {
       headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json', 
